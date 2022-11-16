@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Dashboard</string>
+		<key>IconeImage</key>
+		<string>house.fill</string>
+		<key>Controller</key>
+		<string>HomeViewController</string>
+		<key>storyboard</key>
+		<string>Main</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sync</string>
+		<key>IconeImage</key>
+		<string>music.note</string>
+		<key>Controller</key>
+		<string>SyncViewController</string>
+		<key>storyboard</key>
+		<string>Main</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Notification</string>
+		<key>IconeImage</key>
+		<string>film.fill</string>
+		<key>Controller</key>
+		<string>NotificationViewController</string>
+		<key>storyboard</key>
+		<string>Main</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Setting</string>
+		<key>IconeImage</key>
+		<string>slider.horizontal.3</string>
+		<key>Controller</key>
+		<string>SyncViewController</string>
+		<key>storyboard</key>
+		<string>Main</string>
+	</dict>
+</array>
+</plist>

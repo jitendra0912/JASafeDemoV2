@@ -1,0 +1,6 @@
+framework module Pods_JASafeDemoVTests {
+  umbrella header "Pods-JASafeDemoVTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

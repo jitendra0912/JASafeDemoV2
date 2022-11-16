@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-JASafeDemoV-JASafeDemoVUITests/Pods-JASafeDemoV-JASafeDemoVUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework
+${BUILT_PRODUCTS_DIR}/JWTDecode/JWTDecode.framework
+${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework

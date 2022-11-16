@@ -1,0 +1,6 @@
+framework module Pods_JASafeDemoV_JASafeDemoVUITests {
+  umbrella header "Pods-JASafeDemoV-JASafeDemoVUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

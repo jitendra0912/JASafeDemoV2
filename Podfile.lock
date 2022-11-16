@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (5.6.2)
+  - AppAuth (1.6.0):
+    - AppAuth/Core (= 1.6.0)
+    - AppAuth/ExternalUserAgent (= 1.6.0)
+  - AppAuth/Core (1.6.0)
+  - AppAuth/ExternalUserAgent (1.6.0):
+    - AppAuth/Core
+  - JWTDecode (3.0.0)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AppAuth
+  - JWTDecode
+  - Reachability (~> 3.2)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppAuth
+    - JWTDecode
+    - Reachability
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  AppAuth: 8fca6b5563a5baef2c04bee27538025e4ceb2add
+  JWTDecode: 82480a7173f8a811954e7e14a2b59f688ca4222a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: 72daa741fe622d4110c7237cb05f6431953f4c74
+
+COCOAPODS: 1.11.3

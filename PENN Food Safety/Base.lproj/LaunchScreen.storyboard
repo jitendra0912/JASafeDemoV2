@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8Ng-5t-0rb">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="iUa-BZ-CBO">
+            <objects>
+                <viewController id="8Ng-5t-0rb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dD7-U4-l9X"/>
+                        <viewControllerLayoutGuide type="bottom" id="pI4-dT-Fzd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Li-dX-45u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Onboarding-background" translatesAutoresizingMaskIntoConstraints="NO" id="eIU-lQ-xfH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dashboardLogo" translatesAutoresizingMaskIntoConstraints="NO" id="3a6-hX-m0P">
+                                <rect key="frame" x="107" y="403" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="c27-LK-BKj"/>
+                                    <constraint firstAttribute="width" constant="200" id="p0u-f1-Ec2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PqQ-nw-OuU"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pI4-dT-Fzd" firstAttribute="top" secondItem="eIU-lQ-xfH" secondAttribute="bottom" constant="-34" id="3Ez-aW-E8E"/>
+                            <constraint firstItem="eIU-lQ-xfH" firstAttribute="top" secondItem="dD7-U4-l9X" secondAttribute="bottom" id="8F2-aF-SBe"/>
+                            <constraint firstItem="3a6-hX-m0P" firstAttribute="centerY" secondItem="PqQ-nw-OuU" secondAttribute="centerY" id="9Z1-XW-AjA"/>
+                            <constraint firstItem="3a6-hX-m0P" firstAttribute="centerX" secondItem="PqQ-nw-OuU" secondAttribute="centerX" id="FEk-I7-eIi"/>
+                            <constraint firstItem="eIU-lQ-xfH" firstAttribute="top" secondItem="3Li-dX-45u" secondAttribute="top" id="Inw-0x-k9i"/>
+                            <constraint firstAttribute="trailing" secondItem="eIU-lQ-xfH" secondAttribute="trailing" id="JRo-Bs-mUz"/>
+                            <constraint firstItem="eIU-lQ-xfH" firstAttribute="leading" secondItem="3Li-dX-45u" secondAttribute="leading" id="ynY-tE-iK1"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8F2-aF-SBe"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H8U-ht-u0r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Onboarding-background" width="375" height="667"/>
+        <image name="dashboardLogo" width="264" height="120"/>
+    </resources>
+</document>

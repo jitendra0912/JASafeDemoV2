@@ -1,0 +1,1271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25CDBCB71FDD7A7C973829A5 /* Pods_JASafeDemoV_JASafeDemoVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD04272AC6CCE80B0059BE2 /* Pods_JASafeDemoV_JASafeDemoVUITests.framework */; };
+		3F334B3B28E40BD6008F4BBD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F334B3A28E40BD6008F4BBD /* BaseViewController.swift */; };
+		3FC9684028DF3F860016D5BB /* FSMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9683F28DF3F860016D5BB /* FSMenu.plist */; };
+		3FC9684228DF41E20016D5BB /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9684128DF41E20016D5BB /* MenuViewModel.swift */; };
+		3FC9684428DF579F0016D5BB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9684328DF579F0016D5BB /* Extension.swift */; };
+		3FFBE6092924070700AEAD7E /* RemarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBE6082924070700AEAD7E /* RemarkViewController.swift */; };
+		3FFBE60D2924B4F400AEAD7E /* JACustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBE60A2924B4F400AEAD7E /* JACustomButton.swift */; };
+		3FFBE60E2924B4F400AEAD7E /* DataSources.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FFBE60B2924B4F400AEAD7E /* DataSources.json */; };
+		3FFBE60F2924B4F400AEAD7E /* DataCaloriesIn.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FFBE60C2924B4F400AEAD7E /* DataCaloriesIn.json */; };
+		3FFBE6112924B58B00AEAD7E /* Highcharts.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFBE6102924B58B00AEAD7E /* Highcharts.xcframework */; };
+		3FFBE6132924B59900AEAD7E /* OptionsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBE6122924B59900AEAD7E /* OptionsProvider.swift */; };
+		3FFBE6152924B5A400AEAD7E /* JAGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBE6142924B5A400AEAD7E /* JAGraphViewController.swift */; };
+		9BF46F5CC576825BE6E9C758 /* Pods_JASafeDemoV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15197B2F83BB6BBD698F357F /* Pods_JASafeDemoV.framework */; };
+		A54AB4A128D0572500594662 /* RefrigerationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54AB49F28D0572500594662 /* RefrigerationCollectionViewCell.swift */; };
+		A54AB4A228D0572500594662 /* RefrigerationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54AB4A028D0572500594662 /* RefrigerationCollectionViewCell.xib */; };
+		A54AB4A528D070C800594662 /* RefrigerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54AB4A428D070C800594662 /* RefrigerationViewController.swift */; };
+		A54AB4A728D2DEA800594662 /* DashBoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54AB4A628D2DEA800594662 /* DashBoardModel.swift */; };
+		A54AB4A928D30D3B00594662 /* refrigerationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A54AB4A828D30D3B00594662 /* refrigerationIcon.png */; };
+		A5522484291A2438007FCDF1 /* AlarmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5522483291A2438007FCDF1 /* AlarmDetailViewController.swift */; };
+		A5522486291A24A5007FCDF1 /* AlarmDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5522485291A24A5007FCDF1 /* AlarmDetailCell.swift */; };
+		A552248B291B890A007FCDF1 /* AlarmReasonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A552248A291B890A007FCDF1 /* AlarmReasonViewModel.swift */; };
+		A552248D291BBD1A007FCDF1 /* ResolvedReasonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A552248C291BBD1A007FCDF1 /* ResolvedReasonModel.swift */; };
+		A552248F291BBF29007FCDF1 /* CorrectiveActionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A552248E291BBF29007FCDF1 /* CorrectiveActionModel.swift */; };
+		A5522491291BC40A007FCDF1 /* ResolveReasonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5522490291BC40A007FCDF1 /* ResolveReasonAPI.swift */; };
+		A5522493291C0B23007FCDF1 /* AlarmReasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5522492291C0B23007FCDF1 /* AlarmReasonViewController.swift */; };
+		A5522495291CC1DB007FCDF1 /* ResolveReasonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5522494291CC1DB007FCDF1 /* ResolveReasonTableViewCell.swift */; };
+		A56941C1289A705A00A5476B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56941C0289A705A00A5476B /* SystemConfiguration.framework */; };
+		A56941C3289A709D00A5476B /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56941C2289A709D00A5476B /* ReachabilityManager.swift */; };
+		A56941C6289A71B100A5476B /* AppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A56941C5289A71B100A5476B /* AppAuth.framework */; };
+		A56941C9289A766F00A5476B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56941C8289A766F00A5476B /* DataManager.swift */; };
+		A56941CB289A775E00A5476B /* FSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56941CA289A775E00A5476B /* FSConstants.swift */; };
+		A56941CE289A7FE100A5476B /* User+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56941CD289A7FE100A5476B /* User+API.swift */; };
+		A56941D328A36E8600A5476B /* API Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56941D228A36E8600A5476B /* API Handler.swift */; };
+		A56941D528A36EAF00A5476B /* RequestHandler+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56941D428A36EAF00A5476B /* RequestHandler+Extension.swift */; };
+		A56941D728A36EC800A5476B /* ResponseHandler+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56941D628A36EC800A5476B /* ResponseHandler+Extension.swift */; };
+		A56941D928A36EE100A5476B /* APILoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56941D828A36EE100A5476B /* APILoader.swift */; };
+		A56941DB28A36EF700A5476B /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56941DA28A36EF700A5476B /* APIEnvironment.swift */; };
+		A56941DD28A36F0900A5476B /* APIPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56941DC28A36F0900A5476B /* APIPath.swift */; };
+		A5728C80291E0C5E0053BF9B /* CorrectiveActionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5728C7F291E0C5E0053BF9B /* CorrectiveActionAPI.swift */; };
+		A5728C82291E16FD0053BF9B /* CorrectiveActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5728C81291E16FD0053BF9B /* CorrectiveActionViewModel.swift */; };
+		A5728C85291E83330053BF9B /* CorrectiveActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5728C84291E83330053BF9B /* CorrectiveActionViewController.swift */; };
+		A5728C87291E83510053BF9B /* CorrectiveActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5728C86291E83510053BF9B /* CorrectiveActionTableViewCell.swift */; };
+		A58E5EAB28CEEB3E002621C5 /* FSApplicationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E5EAA28CEEB3E002621C5 /* FSApplicationConfig.swift */; };
+		A58E5EAD28CEEB6F002621C5 /* FSApplicationConfigLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E5EAC28CEEB6F002621C5 /* FSApplicationConfigLoader.swift */; };
+		A58E5EAF28CEEBE8002621C5 /* FSAppAuthHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E5EAE28CEEBE8002621C5 /* FSAppAuthHandler.swift */; };
+		A58E5EB128CEEBF5002621C5 /* FSApplicationStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E5EB028CEEBF5002621C5 /* FSApplicationStateManager.swift */; };
+		A58E5EB328CEEC68002621C5 /* JAWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E5EB228CEEC68002621C5 /* JAWebView.swift */; };
+		A58E5EB528CEED03002621C5 /* FSStartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E5EB428CEED02002621C5 /* FSStartViewModel.swift */; };
+		A5B4787928D9B1D300C4A781 /* JSMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B4787828D9B1D300C4A781 /* JSMessageHandler.swift */; };
+		A5B4787B28D9B1FF00C4A781 /* FSHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B4787A28D9B1FF00C4A781 /* FSHelper.swift */; };
+		A5B4787D28D9B24F00C4A781 /* FSStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B4787C28D9B24F00C4A781 /* FSStartViewController.swift */; };
+		A5B8488C2878A1A90019CFE4 /* Application Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B8488B2878A1A90019CFE4 /* Application Error.swift */; };
+		A5B84897287BF2EA0019CFE4 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = A5B84896287BF2EA0019CFE4 /* config.json */; };
+		A5B9AAD728B51F8A00C77C01 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B9AAD628B51F8A00C77C01 /* SideMenuViewController.swift */; };
+		A5B9AAD928B51FC600C77C01 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B9AAD828B51FC600C77C01 /* MainViewController.swift */; };
+		A5B9AADB28B5205500C77C01 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B9AADA28B5205500C77C01 /* SideMenuModel.swift */; };
+		A5B9AADF28B520AE00C77C01 /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B9AADE28B520AE00C77C01 /* SideMenuCell.swift */; };
+		A5B9AAE128B520F700C77C01 /* SideMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B9AAE028B520F700C77C01 /* SideMenuCell.xib */; };
+		A5B9AAE328B5223300C77C01 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B9AAE228B5223300C77C01 /* HomeViewController.swift */; };
+		A5B9AAE528B5245B00C77C01 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B9AAE428B5245B00C77C01 /* DashBoardViewController.swift */; };
+		A5B9AAE728B5247C00C77C01 /* SyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B9AAE628B5247C00C77C01 /* SyncViewController.swift */; };
+		A5B9AAED28B524CC00C77C01 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B9AAEC28B524CC00C77C01 /* NotificationViewController.swift */; };
+		A5B9B5A22878464200D8F662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B9B5A12878464200D8F662 /* AppDelegate.swift */; };
+		A5B9B5A42878464200D8F662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B9B5A32878464200D8F662 /* SceneDelegate.swift */; };
+		A5B9B5A92878464200D8F662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B9B5A72878464200D8F662 /* Main.storyboard */; };
+		A5B9B5AB2878464400D8F662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B9B5AA2878464400D8F662 /* Assets.xcassets */; };
+		A5B9B5AE2878464400D8F662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B9B5AC2878464400D8F662 /* LaunchScreen.storyboard */; };
+		A5B9B5B92878464400D8F662 /* PENN_Food_SafetyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B9B5B82878464400D8F662 /* PENN_Food_SafetyTests.swift */; };
+		A5B9B5C32878464400D8F662 /* PENN_Food_SafetyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B9B5C22878464400D8F662 /* PENN_Food_SafetyUITests.swift */; };
+		A5B9B5C52878464400D8F662 /* PENN_Food_SafetyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B9B5C42878464400D8F662 /* PENN_Food_SafetyUITestsLaunchTests.swift */; };
+		A5DF611028ACB61A000B74B2 /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF610F28ACB61A000B74B2 /* AuthenticationResponse.swift */; };
+		A5E448D628F93097005EB93E /* RefrigerationCabinetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E448D528F93097005EB93E /* RefrigerationCabinetViewModel.swift */; };
+		A5E448D928F930AF005EB93E /* RefrigerationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E448D828F930AF005EB93E /* RefrigerationAPI.swift */; };
+		A5E448DD28FADDB0005EB93E /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E448DC28FADDB0005EB93E /* AlarmModel.swift */; };
+		A5E448E328FB22B6005EB93E /* AlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E448E228FB22B6005EB93E /* AlarmViewModel.swift */; };
+		A5E448E528FB234A005EB93E /* AlarmAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E448E428FB234A005EB93E /* AlarmAPI.swift */; };
+		A5FA10DA28C1B772001ACAB3 /* FSAPIManagerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FA10D928C1B772001ACAB3 /* FSAPIManagerHandler.swift */; };
+		A5FA10E828C1C276001ACAB3 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FA10E728C1C276001ACAB3 /* LoadingView.swift */; };
+		A5FA10EF28C70E44001ACAB3 /* UIViewController+PENN.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FA10EE28C70E44001ACAB3 /* UIViewController+PENN.swift */; };
+		AA2E6E0628FC054A005CB087 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E6E0528FC054A005CB087 /* SlideMenuController.swift */; };
+		AA2E6E0828FC07B0005CB087 /* Cabinet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2E6E0728FC07B0005CB087 /* Cabinet.storyboard */; };
+		AA2E6E0C28FC083B005CB087 /* CabinetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E6E0928FC083B005CB087 /* CabinetsViewController.swift */; };
+		AA2E6E0D28FC083B005CB087 /* SegementedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E6E0A28FC083B005CB087 /* SegementedVC.swift */; };
+		AA2E6E0E28FC083B005CB087 /* AlarmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E6E0B28FC083B005CB087 /* AlarmsViewController.swift */; };
+		AA2E6E1128FC0882005CB087 /* AlarmsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E6E0F28FC0882005CB087 /* AlarmsTableViewCell.swift */; };
+		AA2E6E1228FC0882005CB087 /* CabinetCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E6E1028FC0882005CB087 /* CabinetCardTableViewCell.swift */; };
+		AA2E6E2728FC088B005CB087 /* CabinetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E6E1C28FC088B005CB087 /* CabinetsModel.swift */; };
+		AA2E6E2928FC088B005CB087 /* CabinetsResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = AA2E6E1E28FC088B005CB087 /* CabinetsResponse.json */; };
+		AA2E6E2B28FC0891005CB087 /* JASearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E6E2A28FC0891005CB087 /* JASearchBar.swift */; };
+		AA2E6E2F28FC278D005CB087 /* CabinetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E6E2E28FC278D005CB087 /* CabinetViewModel.swift */; };
+		AA2E6E3228FC27F7005CB087 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E6E3128FC27F7005CB087 /* BaseTableViewCell.swift */; };
+		AA2E6E3828FC2E67005CB087 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E6E3728FC2E67005CB087 /* CodableHelper.swift */; };
+		AA51BA6728DAFF6A003D4F33 /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51BA6628DAFF6A003D4F33 /* HeaderViewController.swift */; };
+		AA51BA6928DAFFAC003D4F33 /* ContentNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51BA6828DAFFAC003D4F33 /* ContentNavigationViewController.swift */; };
+		AA51BA6B28DB0030003D4F33 /* NavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51BA6A28DB0030003D4F33 /* NavigationHelper.swift */; };
+		AA51BAD328DB1102003D4F33 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51BAD228DB1102003D4F33 /* DetailsViewController.swift */; };
+		E77DBC720AB70EEDD4CF240E /* Pods_JASafeDemoVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7631B8D0808FB1D2C66927B /* Pods_JASafeDemoVTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5B9B5B52878464400D8F662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5B9B5962878464200D8F662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5B9B59D2878464200D8F662;
+			remoteInfo = "PENN Food Safety";
+		};
+		A5B9B5BF2878464400D8F662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5B9B5962878464200D8F662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5B9B59D2878464200D8F662;
+			remoteInfo = "PENN Food Safety";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08E8EDF8BB151AD45D4BEDE8 /* Pods-PENN Food Safety-PENN Food SafetyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PENN Food Safety-PENN Food SafetyUITests.debug.xcconfig"; path = "Target Support Files/Pods-PENN Food Safety-PENN Food SafetyUITests/Pods-PENN Food Safety-PENN Food SafetyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FF16FB882F48440CA93DA91 /* Pods-PENNFoodSafety-PENNFoodSafetyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PENNFoodSafety-PENNFoodSafetyUITests.debug.xcconfig"; path = "Target Support Files/Pods-PENNFoodSafety-PENNFoodSafetyUITests/Pods-PENNFoodSafety-PENNFoodSafetyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		15197B2F83BB6BBD698F357F /* Pods_JASafeDemoV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JASafeDemoV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18248F2E8792A410B9356913 /* Pods-PENNFoodSafetyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PENNFoodSafetyTests.release.xcconfig"; path = "Target Support Files/Pods-PENNFoodSafetyTests/Pods-PENNFoodSafetyTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CD04272AC6CCE80B0059BE2 /* Pods_JASafeDemoV_JASafeDemoVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JASafeDemoV_JASafeDemoVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37300CAC055171951496CD9A /* Pods-PENNFoodSafetyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PENNFoodSafetyTests.debug.xcconfig"; path = "Target Support Files/Pods-PENNFoodSafetyTests/Pods-PENNFoodSafetyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F334B3A28E40BD6008F4BBD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3FC9683F28DF3F860016D5BB /* FSMenu.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FSMenu.plist; sourceTree = "<group>"; };
+		3FC9684128DF41E20016D5BB /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		3FC9684328DF579F0016D5BB /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3FFBE6082924070700AEAD7E /* RemarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemarkViewController.swift; sourceTree = "<group>"; };
+		3FFBE60A2924B4F400AEAD7E /* JACustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JACustomButton.swift; sourceTree = "<group>"; };
+		3FFBE60B2924B4F400AEAD7E /* DataSources.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DataSources.json; sourceTree = "<group>"; };
+		3FFBE60C2924B4F400AEAD7E /* DataCaloriesIn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DataCaloriesIn.json; sourceTree = "<group>"; };
+		3FFBE6102924B58B00AEAD7E /* Highcharts.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Highcharts.xcframework; sourceTree = "<group>"; };
+		3FFBE6122924B59900AEAD7E /* OptionsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsProvider.swift; sourceTree = "<group>"; };
+		3FFBE6142924B5A400AEAD7E /* JAGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JAGraphViewController.swift; sourceTree = "<group>"; };
+		5C3E01558E74D1C87B088B09 /* Pods-PENN Food Safety-PENN Food SafetyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PENN Food Safety-PENN Food SafetyUITests.release.xcconfig"; path = "Target Support Files/Pods-PENN Food Safety-PENN Food SafetyUITests/Pods-PENN Food Safety-PENN Food SafetyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		718B236630CD9F9F90E1649A /* Pods-JASafeDemoVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JASafeDemoVTests.debug.xcconfig"; path = "Target Support Files/Pods-JASafeDemoVTests/Pods-JASafeDemoVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72A74B05A823DC949C1D2A4A /* Pods-PENN Food Safety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PENN Food Safety.release.xcconfig"; path = "Target Support Files/Pods-PENN Food Safety/Pods-PENN Food Safety.release.xcconfig"; sourceTree = "<group>"; };
+		88D79D0BAA72D8C89EA09F06 /* Pods-PENN Food SafetyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PENN Food SafetyTests.release.xcconfig"; path = "Target Support Files/Pods-PENN Food SafetyTests/Pods-PENN Food SafetyTests.release.xcconfig"; sourceTree = "<group>"; };
+		94AE8207D64882B9246FBBBF /* Pods-PENN Food Safety.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PENN Food Safety.debug.xcconfig"; path = "Target Support Files/Pods-PENN Food Safety/Pods-PENN Food Safety.debug.xcconfig"; sourceTree = "<group>"; };
+		A54AB49F28D0572500594662 /* RefrigerationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefrigerationCollectionViewCell.swift; sourceTree = "<group>"; };
+		A54AB4A028D0572500594662 /* RefrigerationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RefrigerationCollectionViewCell.xib; sourceTree = "<group>"; };
+		A54AB4A428D070C800594662 /* RefrigerationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefrigerationViewController.swift; sourceTree = "<group>"; };
+		A54AB4A628D2DEA800594662 /* DashBoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardModel.swift; sourceTree = "<group>"; };
+		A54AB4A828D30D3B00594662 /* refrigerationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refrigerationIcon.png; path = Assets.xcassets/refrigerationIcon.png; sourceTree = "<group>"; };
+		A5522483291A2438007FCDF1 /* AlarmDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailViewController.swift; sourceTree = "<group>"; };
+		A5522485291A24A5007FCDF1 /* AlarmDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailCell.swift; sourceTree = "<group>"; };
+		A552248A291B890A007FCDF1 /* AlarmReasonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmReasonViewModel.swift; sourceTree = "<group>"; };
+		A552248C291BBD1A007FCDF1 /* ResolvedReasonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolvedReasonModel.swift; sourceTree = "<group>"; };
+		A552248E291BBF29007FCDF1 /* CorrectiveActionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectiveActionModel.swift; sourceTree = "<group>"; };
+		A5522490291BC40A007FCDF1 /* ResolveReasonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolveReasonAPI.swift; sourceTree = "<group>"; };
+		A5522492291C0B23007FCDF1 /* AlarmReasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmReasonViewController.swift; sourceTree = "<group>"; };
+		A5522494291CC1DB007FCDF1 /* ResolveReasonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolveReasonTableViewCell.swift; sourceTree = "<group>"; };
+		A55595B69595E6279B5C8A1E /* Pods-JASafeDemoV-JASafeDemoVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JASafeDemoV-JASafeDemoVUITests.debug.xcconfig"; path = "Target Support Files/Pods-JASafeDemoV-JASafeDemoVUITests/Pods-JASafeDemoV-JASafeDemoVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A56941BF289A582D00A5476B /* PENN Food Safety.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "PENN Food Safety.entitlements"; sourceTree = "<group>"; };
+		A56941C0289A705A00A5476B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A56941C2289A709D00A5476B /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		A56941C5289A71B100A5476B /* AppAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56941C8289A766F00A5476B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A56941CA289A775E00A5476B /* FSConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSConstants.swift; sourceTree = "<group>"; };
+		A56941CD289A7FE100A5476B /* User+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+API.swift"; sourceTree = "<group>"; };
+		A56941D228A36E8600A5476B /* API Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Handler.swift"; sourceTree = "<group>"; };
+		A56941D428A36EAF00A5476B /* RequestHandler+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RequestHandler+Extension.swift"; sourceTree = "<group>"; };
+		A56941D628A36EC800A5476B /* ResponseHandler+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResponseHandler+Extension.swift"; sourceTree = "<group>"; };
+		A56941D828A36EE100A5476B /* APILoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILoader.swift; sourceTree = "<group>"; };
+		A56941DA28A36EF700A5476B /* APIEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
+		A56941DC28A36F0900A5476B /* APIPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPath.swift; sourceTree = "<group>"; };
+		A5728C7F291E0C5E0053BF9B /* CorrectiveActionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectiveActionAPI.swift; sourceTree = "<group>"; };
+		A5728C81291E16FD0053BF9B /* CorrectiveActionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectiveActionViewModel.swift; sourceTree = "<group>"; };
+		A5728C84291E83330053BF9B /* CorrectiveActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectiveActionViewController.swift; sourceTree = "<group>"; };
+		A5728C86291E83510053BF9B /* CorrectiveActionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectiveActionTableViewCell.swift; sourceTree = "<group>"; };
+		A58E5EAA28CEEB3E002621C5 /* FSApplicationConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSApplicationConfig.swift; sourceTree = "<group>"; };
+		A58E5EAC28CEEB6F002621C5 /* FSApplicationConfigLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSApplicationConfigLoader.swift; sourceTree = "<group>"; };
+		A58E5EAE28CEEBE8002621C5 /* FSAppAuthHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSAppAuthHandler.swift; sourceTree = "<group>"; };
+		A58E5EB028CEEBF5002621C5 /* FSApplicationStateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSApplicationStateManager.swift; sourceTree = "<group>"; };
+		A58E5EB228CEEC68002621C5 /* JAWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JAWebView.swift; sourceTree = "<group>"; };
+		A58E5EB428CEED02002621C5 /* FSStartViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSStartViewModel.swift; sourceTree = "<group>"; };
+		A5B4787828D9B1D300C4A781 /* JSMessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSMessageHandler.swift; sourceTree = "<group>"; };
+		A5B4787A28D9B1FF00C4A781 /* FSHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSHelper.swift; sourceTree = "<group>"; };
+		A5B4787C28D9B24F00C4A781 /* FSStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSStartViewController.swift; sourceTree = "<group>"; };
+		A5B8487B287865D10019CFE4 /* AppAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B8487F28786C1E0019CFE4 /* AppAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B8488B2878A1A90019CFE4 /* Application Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Application Error.swift"; sourceTree = "<group>"; };
+		A5B84892287BEEAE0019CFE4 /* libAppAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAppAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B84894287BEECF0019CFE4 /* libAppAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAppAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B84896287BF2EA0019CFE4 /* config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		A5B9AAD628B51F8A00C77C01 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		A5B9AAD828B51FC600C77C01 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A5B9AADA28B5205500C77C01 /* SideMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuModel.swift; sourceTree = "<group>"; };
+		A5B9AADE28B520AE00C77C01 /* SideMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		A5B9AAE028B520F700C77C01 /* SideMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuCell.xib; sourceTree = "<group>"; };
+		A5B9AAE228B5223300C77C01 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A5B9AAE428B5245B00C77C01 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		A5B9AAE628B5247C00C77C01 /* SyncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncViewController.swift; sourceTree = "<group>"; };
+		A5B9AAEC28B524CC00C77C01 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		A5B9B59E2878464200D8F662 /* JASafeDemoV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JASafeDemoV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B9B5A12878464200D8F662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5B9B5A32878464200D8F662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5B9B5A82878464200D8F662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5B9B5AA2878464400D8F662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5B9B5AD2878464400D8F662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5B9B5AF2878464400D8F662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B9B5B42878464400D8F662 /* JASafeDemoVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JASafeDemoVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B9B5B82878464400D8F662 /* PENN_Food_SafetyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PENN_Food_SafetyTests.swift; sourceTree = "<group>"; };
+		A5B9B5BE2878464400D8F662 /* JASafeDemoVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JASafeDemoVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B9B5C22878464400D8F662 /* PENN_Food_SafetyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PENN_Food_SafetyUITests.swift; sourceTree = "<group>"; };
+		A5B9B5C42878464400D8F662 /* PENN_Food_SafetyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PENN_Food_SafetyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5DF610F28ACB61A000B74B2 /* AuthenticationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationResponse.swift; sourceTree = "<group>"; };
+		A5E448D528F93097005EB93E /* RefrigerationCabinetViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefrigerationCabinetViewModel.swift; sourceTree = "<group>"; };
+		A5E448D828F930AF005EB93E /* RefrigerationAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefrigerationAPI.swift; sourceTree = "<group>"; };
+		A5E448DC28FADDB0005EB93E /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		A5E448E228FB22B6005EB93E /* AlarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewModel.swift; sourceTree = "<group>"; };
+		A5E448E428FB234A005EB93E /* AlarmAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmAPI.swift; sourceTree = "<group>"; };
+		A5FA10D928C1B772001ACAB3 /* FSAPIManagerHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSAPIManagerHandler.swift; sourceTree = "<group>"; };
+		A5FA10E728C1C276001ACAB3 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A5FA10EE28C70E44001ACAB3 /* UIViewController+PENN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+PENN.swift"; sourceTree = "<group>"; };
+		AA2E6E0528FC054A005CB087 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		AA2E6E0728FC07B0005CB087 /* Cabinet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cabinet.storyboard; sourceTree = "<group>"; };
+		AA2E6E0928FC083B005CB087 /* CabinetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabinetsViewController.swift; sourceTree = "<group>"; };
+		AA2E6E0A28FC083B005CB087 /* SegementedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegementedVC.swift; sourceTree = "<group>"; };
+		AA2E6E0B28FC083B005CB087 /* AlarmsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmsViewController.swift; sourceTree = "<group>"; };
+		AA2E6E0F28FC0882005CB087 /* AlarmsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmsTableViewCell.swift; sourceTree = "<group>"; };
+		AA2E6E1028FC0882005CB087 /* CabinetCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabinetCardTableViewCell.swift; sourceTree = "<group>"; };
+		AA2E6E1C28FC088B005CB087 /* CabinetsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabinetsModel.swift; sourceTree = "<group>"; };
+		AA2E6E1E28FC088B005CB087 /* CabinetsResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CabinetsResponse.json; sourceTree = "<group>"; };
+		AA2E6E2A28FC0891005CB087 /* JASearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JASearchBar.swift; sourceTree = "<group>"; };
+		AA2E6E2E28FC278D005CB087 /* CabinetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabinetViewModel.swift; sourceTree = "<group>"; };
+		AA2E6E3128FC27F7005CB087 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		AA2E6E3728FC2E67005CB087 /* CodableHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
+		AA51BA6628DAFF6A003D4F33 /* HeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewController.swift; sourceTree = "<group>"; };
+		AA51BA6828DAFFAC003D4F33 /* ContentNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentNavigationViewController.swift; sourceTree = "<group>"; };
+		AA51BA6A28DB0030003D4F33 /* NavigationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHelper.swift; sourceTree = "<group>"; };
+		AA51BAD228DB1102003D4F33 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		C7A1FBC9571A98555EB69410 /* Pods-JASafeDemoV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JASafeDemoV.debug.xcconfig"; path = "Target Support Files/Pods-JASafeDemoV/Pods-JASafeDemoV.debug.xcconfig"; sourceTree = "<group>"; };
+		D9D511ADFE3C8AD716B1B12E /* Pods-PENNFoodSafety.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PENNFoodSafety.debug.xcconfig"; path = "Target Support Files/Pods-PENNFoodSafety/Pods-PENNFoodSafety.debug.xcconfig"; sourceTree = "<group>"; };
+		DAFA3BA2FF472CF933D1528C /* Pods-PENNFoodSafety-PENNFoodSafetyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PENNFoodSafety-PENNFoodSafetyUITests.release.xcconfig"; path = "Target Support Files/Pods-PENNFoodSafety-PENNFoodSafetyUITests/Pods-PENNFoodSafety-PENNFoodSafetyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DAFFA9E10F8EC9B130E413F9 /* Pods-JASafeDemoV-JASafeDemoVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JASafeDemoV-JASafeDemoVUITests.release.xcconfig"; path = "Target Support Files/Pods-JASafeDemoV-JASafeDemoVUITests/Pods-JASafeDemoV-JASafeDemoVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0E852195F198F60A9B18598 /* Pods-PENNFoodSafety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PENNFoodSafety.release.xcconfig"; path = "Target Support Files/Pods-PENNFoodSafety/Pods-PENNFoodSafety.release.xcconfig"; sourceTree = "<group>"; };
+		E6BC8AC32BE9E10960A8F2A7 /* Pods-PENN Food SafetyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PENN Food SafetyTests.debug.xcconfig"; path = "Target Support Files/Pods-PENN Food SafetyTests/Pods-PENN Food SafetyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7631B8D0808FB1D2C66927B /* Pods_JASafeDemoVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JASafeDemoVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DF33D41C939D744A4A9C4A /* Pods-JASafeDemoV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JASafeDemoV.release.xcconfig"; path = "Target Support Files/Pods-JASafeDemoV/Pods-JASafeDemoV.release.xcconfig"; sourceTree = "<group>"; };
+		FDA9479503A60FFC64D103A9 /* Pods-JASafeDemoVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JASafeDemoVTests.release.xcconfig"; path = "Target Support Files/Pods-JASafeDemoVTests/Pods-JASafeDemoVTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5B9B59B2878464200D8F662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56941C6289A71B100A5476B /* AppAuth.framework in Frameworks */,
+				A56941C1289A705A00A5476B /* SystemConfiguration.framework in Frameworks */,
+				3FFBE6112924B58B00AEAD7E /* Highcharts.xcframework in Frameworks */,
+				9BF46F5CC576825BE6E9C758 /* Pods_JASafeDemoV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B9B5B12878464400D8F662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77DBC720AB70EEDD4CF240E /* Pods_JASafeDemoVTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B9B5BB2878464400D8F662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25CDBCB71FDD7A7C973829A5 /* Pods_JASafeDemoV_JASafeDemoVUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D7880EB8A369CB234FE7CD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A56941C5289A71B100A5476B /* AppAuth.framework */,
+				A56941C0289A705A00A5476B /* SystemConfiguration.framework */,
+				A5B84894287BEECF0019CFE4 /* libAppAuth.a */,
+				A5B84892287BEEAE0019CFE4 /* libAppAuth.a */,
+				A5B8487F28786C1E0019CFE4 /* AppAuth.framework */,
+				A5B8487B287865D10019CFE4 /* AppAuth.framework */,
+				15197B2F83BB6BBD698F357F /* Pods_JASafeDemoV.framework */,
+				2CD04272AC6CCE80B0059BE2 /* Pods_JASafeDemoV_JASafeDemoVUITests.framework */,
+				E7631B8D0808FB1D2C66927B /* Pods_JASafeDemoVTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FC9683E28DF3F640016D5BB /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				3FC9684128DF41E20016D5BB /* MenuViewModel.swift */,
+				3FC9683F28DF3F860016D5BB /* FSMenu.plist */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		85B25CBD15F2A321A2896485 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94AE8207D64882B9246FBBBF /* Pods-PENN Food Safety.debug.xcconfig */,
+				72A74B05A823DC949C1D2A4A /* Pods-PENN Food Safety.release.xcconfig */,
+				08E8EDF8BB151AD45D4BEDE8 /* Pods-PENN Food Safety-PENN Food SafetyUITests.debug.xcconfig */,
+				5C3E01558E74D1C87B088B09 /* Pods-PENN Food Safety-PENN Food SafetyUITests.release.xcconfig */,
+				E6BC8AC32BE9E10960A8F2A7 /* Pods-PENN Food SafetyTests.debug.xcconfig */,
+				88D79D0BAA72D8C89EA09F06 /* Pods-PENN Food SafetyTests.release.xcconfig */,
+				D9D511ADFE3C8AD716B1B12E /* Pods-PENNFoodSafety.debug.xcconfig */,
+				E0E852195F198F60A9B18598 /* Pods-PENNFoodSafety.release.xcconfig */,
+				0FF16FB882F48440CA93DA91 /* Pods-PENNFoodSafety-PENNFoodSafetyUITests.debug.xcconfig */,
+				DAFA3BA2FF472CF933D1528C /* Pods-PENNFoodSafety-PENNFoodSafetyUITests.release.xcconfig */,
+				37300CAC055171951496CD9A /* Pods-PENNFoodSafetyTests.debug.xcconfig */,
+				18248F2E8792A410B9356913 /* Pods-PENNFoodSafetyTests.release.xcconfig */,
+				C7A1FBC9571A98555EB69410 /* Pods-JASafeDemoV.debug.xcconfig */,
+				F1DF33D41C939D744A4A9C4A /* Pods-JASafeDemoV.release.xcconfig */,
+				A55595B69595E6279B5C8A1E /* Pods-JASafeDemoV-JASafeDemoVUITests.debug.xcconfig */,
+				DAFFA9E10F8EC9B130E413F9 /* Pods-JASafeDemoV-JASafeDemoVUITests.release.xcconfig */,
+				718B236630CD9F9F90E1649A /* Pods-JASafeDemoVTests.debug.xcconfig */,
+				FDA9479503A60FFC64D103A9 /* Pods-JASafeDemoVTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A56941C7289A765500A5476B /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				A56941C8289A766F00A5476B /* DataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		A56941CC289A7FB900A5476B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5E448DC28FADDB0005EB93E /* AlarmModel.swift */,
+				A58E5EB428CEED02002621C5 /* FSStartViewModel.swift */,
+				A56941CD289A7FE100A5476B /* User+API.swift */,
+				A5B9AADA28B5205500C77C01 /* SideMenuModel.swift */,
+				A54AB4A628D2DEA800594662 /* DashBoardModel.swift */,
+				A552248C291BBD1A007FCDF1 /* ResolvedReasonModel.swift */,
+				A552248E291BBF29007FCDF1 /* CorrectiveActionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A56941D128A36E5800A5476B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A56941D228A36E8600A5476B /* API Handler.swift */,
+				A56941D428A36EAF00A5476B /* RequestHandler+Extension.swift */,
+				A56941D628A36EC800A5476B /* ResponseHandler+Extension.swift */,
+				A56941D828A36EE100A5476B /* APILoader.swift */,
+				A56941DA28A36EF700A5476B /* APIEnvironment.swift */,
+				A56941DC28A36F0900A5476B /* APIPath.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A56941DE28A3718100A5476B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5B84896287BF2EA0019CFE4 /* config.json */,
+				A56941CA289A775E00A5476B /* FSConstants.swift */,
+				A5B9B5A32878464200D8F662 /* SceneDelegate.swift */,
+				A5B9B5A72878464200D8F662 /* Main.storyboard */,
+				A5B9B5A12878464200D8F662 /* AppDelegate.swift */,
+				A5B8488B2878A1A90019CFE4 /* Application Error.swift */,
+				AA2E6E0728FC07B0005CB087 /* Cabinet.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A56941DF28A371BE00A5476B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FFBE6142924B5A400AEAD7E /* JAGraphViewController.swift */,
+				AA2E6E0B28FC083B005CB087 /* AlarmsViewController.swift */,
+				A5522483291A2438007FCDF1 /* AlarmDetailViewController.swift */,
+				A5522492291C0B23007FCDF1 /* AlarmReasonViewController.swift */,
+				A5728C84291E83330053BF9B /* CorrectiveActionViewController.swift */,
+				AA2E6E0928FC083B005CB087 /* CabinetsViewController.swift */,
+				AA2E6E0A28FC083B005CB087 /* SegementedVC.swift */,
+				A5B4787C28D9B24F00C4A781 /* FSStartViewController.swift */,
+				A58E5EB228CEEC68002621C5 /* JAWebView.swift */,
+				A5B9AAD828B51FC600C77C01 /* MainViewController.swift */,
+				A5B9AAE228B5223300C77C01 /* HomeViewController.swift */,
+				A54AB49F28D0572500594662 /* RefrigerationCollectionViewCell.swift */,
+				A5B9AAE428B5245B00C77C01 /* DashBoardViewController.swift */,
+				A5B9AAE628B5247C00C77C01 /* SyncViewController.swift */,
+				A5B9AAEC28B524CC00C77C01 /* NotificationViewController.swift */,
+				A54AB4A028D0572500594662 /* RefrigerationCollectionViewCell.xib */,
+				A54AB4A428D070C800594662 /* RefrigerationViewController.swift */,
+				AA51BA6628DAFF6A003D4F33 /* HeaderViewController.swift */,
+				AA51BA6828DAFFAC003D4F33 /* ContentNavigationViewController.swift */,
+				AA51BAD228DB1102003D4F33 /* DetailsViewController.swift */,
+				3F334B3A28E40BD6008F4BBD /* BaseViewController.swift */,
+				3FFBE6082924070700AEAD7E /* RemarkViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A5B9AADC28B5207D00C77C01 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3FC9683E28DF3F640016D5BB /* Menu */,
+				A5B9AAD628B51F8A00C77C01 /* SideMenuViewController.swift */,
+				A5B9AADD28B5208D00C77C01 /* Cell */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		A5B9AADD28B5208D00C77C01 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A5B9AAE028B520F700C77C01 /* SideMenuCell.xib */,
+				A5B9AADE28B520AE00C77C01 /* SideMenuCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A5B9B5952878464200D8F662 = {
+			isa = PBXGroup;
+			children = (
+				A5B9B5A02878464200D8F662 /* PENN Food Safety */,
+				A5B9B5B72878464400D8F662 /* PENN Food SafetyTests */,
+				A5B9B5C12878464400D8F662 /* PENN Food SafetyUITests */,
+				A5B9B59F2878464200D8F662 /* Products */,
+				85B25CBD15F2A321A2896485 /* Pods */,
+				3D7880EB8A369CB234FE7CD7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5B9B59F2878464200D8F662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5B9B59E2878464200D8F662 /* JASafeDemoV.app */,
+				A5B9B5B42878464400D8F662 /* JASafeDemoVTests.xctest */,
+				A5B9B5BE2878464400D8F662 /* JASafeDemoVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5B9B5A02878464200D8F662 /* PENN Food Safety */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E6E3028FC27C8005CB087 /* Cell */,
+				AA2E6E2D28FC26EE005CB087 /* Utility */,
+				AA2E6E2C28FC2678005CB087 /* Model */,
+				AA2E6E1E28FC088B005CB087 /* CabinetsResponse.json */,
+				A5FA10E428C1B97F001ACAB3 /* Helper */,
+				A5E448D728F930AF005EB93E /* Services */,
+				A5B9AADC28B5207D00C77C01 /* SideMenu */,
+				A56941CC289A7FB900A5476B /* Models */,
+				A56941DF28A371BE00A5476B /* ViewControllers */,
+				A5E448D428F93097005EB93E /* ViewModels */,
+				A56941DE28A3718100A5476B /* Resources */,
+				A56941D128A36E5800A5476B /* Networking */,
+				A56941C7289A765500A5476B /* DataManager */,
+				A56941BF289A582D00A5476B /* PENN Food Safety.entitlements */,
+				A5B9B5AA2878464400D8F662 /* Assets.xcassets */,
+				A54AB4A828D30D3B00594662 /* refrigerationIcon.png */,
+				A5B9B5AC2878464400D8F662 /* LaunchScreen.storyboard */,
+				A5B9B5AF2878464400D8F662 /* Info.plist */,
+			);
+			path = "PENN Food Safety";
+			sourceTree = "<group>";
+		};
+		A5B9B5B72878464400D8F662 /* PENN Food SafetyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5B9B5B82878464400D8F662 /* PENN_Food_SafetyTests.swift */,
+			);
+			path = "PENN Food SafetyTests";
+			sourceTree = "<group>";
+		};
+		A5B9B5C12878464400D8F662 /* PENN Food SafetyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5B9B5C22878464400D8F662 /* PENN_Food_SafetyUITests.swift */,
+				A5B9B5C42878464400D8F662 /* PENN_Food_SafetyUITestsLaunchTests.swift */,
+			);
+			path = "PENN Food SafetyUITests";
+			sourceTree = "<group>";
+		};
+		A5E448D428F93097005EB93E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A5E448D528F93097005EB93E /* RefrigerationCabinetViewModel.swift */,
+				A5E448E228FB22B6005EB93E /* AlarmViewModel.swift */,
+				AA2E6E2E28FC278D005CB087 /* CabinetViewModel.swift */,
+				A552248A291B890A007FCDF1 /* AlarmReasonViewModel.swift */,
+				A5728C81291E16FD0053BF9B /* CorrectiveActionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A5E448D728F930AF005EB93E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A5E448D828F930AF005EB93E /* RefrigerationAPI.swift */,
+				A5E448E428FB234A005EB93E /* AlarmAPI.swift */,
+				A5522490291BC40A007FCDF1 /* ResolveReasonAPI.swift */,
+				A5728C7F291E0C5E0053BF9B /* CorrectiveActionAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A5FA10E428C1B97F001ACAB3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A5B4787A28D9B1FF00C4A781 /* FSHelper.swift */,
+				A5B4787828D9B1D300C4A781 /* JSMessageHandler.swift */,
+				A58E5EB028CEEBF5002621C5 /* FSApplicationStateManager.swift */,
+				A58E5EAE28CEEBE8002621C5 /* FSAppAuthHandler.swift */,
+				A58E5EAC28CEEB6F002621C5 /* FSApplicationConfigLoader.swift */,
+				A58E5EAA28CEEB3E002621C5 /* FSApplicationConfig.swift */,
+				A5FA10D928C1B772001ACAB3 /* FSAPIManagerHandler.swift */,
+				3FC9684328DF579F0016D5BB /* Extension.swift */,
+				A5DF610F28ACB61A000B74B2 /* AuthenticationResponse.swift */,
+				A56941C2289A709D00A5476B /* ReachabilityManager.swift */,
+				A5FA10E728C1C276001ACAB3 /* LoadingView.swift */,
+				A5FA10EE28C70E44001ACAB3 /* UIViewController+PENN.swift */,
+				AA51BA6A28DB0030003D4F33 /* NavigationHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AA2E6E0328FC054A005CB087 /* SlideMenuControllerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E6E0428FC054A005CB087 /* Source */,
+			);
+			path = SlideMenuControllerSwift;
+			sourceTree = "<group>";
+		};
+		AA2E6E0428FC054A005CB087 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E6E0528FC054A005CB087 /* SlideMenuController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		AA2E6E1328FC088B005CB087 /* CabinetsModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E6E1C28FC088B005CB087 /* CabinetsModel.swift */,
+			);
+			path = CabinetsModel;
+			sourceTree = "<group>";
+		};
+		AA2E6E2C28FC2678005CB087 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E6E1328FC088B005CB087 /* CabinetsModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA2E6E2D28FC26EE005CB087 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3FFBE6102924B58B00AEAD7E /* Highcharts.xcframework */,
+				3FFBE6122924B59900AEAD7E /* OptionsProvider.swift */,
+				3FFBE60C2924B4F400AEAD7E /* DataCaloriesIn.json */,
+				3FFBE60B2924B4F400AEAD7E /* DataSources.json */,
+				3FFBE60A2924B4F400AEAD7E /* JACustomButton.swift */,
+				AA2E6E2A28FC0891005CB087 /* JASearchBar.swift */,
+				AA2E6E0328FC054A005CB087 /* SlideMenuControllerSwift */,
+				AA2E6E3728FC2E67005CB087 /* CodableHelper.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		AA2E6E3028FC27C8005CB087 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E6E0F28FC0882005CB087 /* AlarmsTableViewCell.swift */,
+				AA2E6E1028FC0882005CB087 /* CabinetCardTableViewCell.swift */,
+				AA2E6E3128FC27F7005CB087 /* BaseTableViewCell.swift */,
+				A5522485291A24A5007FCDF1 /* AlarmDetailCell.swift */,
+				A5522494291CC1DB007FCDF1 /* ResolveReasonTableViewCell.swift */,
+				A5728C86291E83510053BF9B /* CorrectiveActionTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5B9B59D2878464200D8F662 /* JASafeDemoV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B9B5C82878464400D8F662 /* Build configuration list for PBXNativeTarget "JASafeDemoV" */;
+			buildPhases = (
+				199D3C04F12B51731990C0CC /* [CP] Check Pods Manifest.lock */,
+				A5B9B59A2878464200D8F662 /* Sources */,
+				A5B9B59B2878464200D8F662 /* Frameworks */,
+				A5B9B59C2878464200D8F662 /* Resources */,
+				DE085191789720EE7CCCB7EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JASafeDemoV;
+			productName = "PENN Food Safety";
+			productReference = A5B9B59E2878464200D8F662 /* JASafeDemoV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5B9B5B32878464400D8F662 /* JASafeDemoVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B9B5CB2878464400D8F662 /* Build configuration list for PBXNativeTarget "JASafeDemoVTests" */;
+			buildPhases = (
+				0D4AE83B9C09CE9ED28AEB79 /* [CP] Check Pods Manifest.lock */,
+				A5B9B5B02878464400D8F662 /* Sources */,
+				A5B9B5B12878464400D8F662 /* Frameworks */,
+				A5B9B5B22878464400D8F662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5B9B5B62878464400D8F662 /* PBXTargetDependency */,
+			);
+			name = JASafeDemoVTests;
+			productName = "PENN Food SafetyTests";
+			productReference = A5B9B5B42878464400D8F662 /* JASafeDemoVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5B9B5BD2878464400D8F662 /* JASafeDemoVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B9B5CE2878464400D8F662 /* Build configuration list for PBXNativeTarget "JASafeDemoVUITests" */;
+			buildPhases = (
+				7CD4BDB2956FAE15A3EFBD91 /* [CP] Check Pods Manifest.lock */,
+				A5B9B5BA2878464400D8F662 /* Sources */,
+				A5B9B5BB2878464400D8F662 /* Frameworks */,
+				A5B9B5BC2878464400D8F662 /* Resources */,
+				55EAE3CBCF50BCE4DC825CD3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5B9B5C02878464400D8F662 /* PBXTargetDependency */,
+			);
+			name = JASafeDemoVUITests;
+			productName = "PENN Food SafetyUITests";
+			productReference = A5B9B5BE2878464400D8F662 /* JASafeDemoVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5B9B5962878464200D8F662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A5B9B59D2878464200D8F662 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					A5B9B5B32878464400D8F662 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = A5B9B59D2878464200D8F662;
+					};
+					A5B9B5BD2878464400D8F662 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = A5B9B59D2878464200D8F662;
+					};
+				};
+			};
+			buildConfigurationList = A5B9B5992878464200D8F662 /* Build configuration list for PBXProject "JASafeDemoV" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5B9B5952878464200D8F662;
+			productRefGroup = A5B9B59F2878464200D8F662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5B9B59D2878464200D8F662 /* JASafeDemoV */,
+				A5B9B5B32878464400D8F662 /* JASafeDemoVTests */,
+				A5B9B5BD2878464400D8F662 /* JASafeDemoVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5B9B59C2878464200D8F662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFBE60E2924B4F400AEAD7E /* DataSources.json in Resources */,
+				A5B9B5AE2878464400D8F662 /* LaunchScreen.storyboard in Resources */,
+				A5B84897287BF2EA0019CFE4 /* config.json in Resources */,
+				A54AB4A928D30D3B00594662 /* refrigerationIcon.png in Resources */,
+				A54AB4A228D0572500594662 /* RefrigerationCollectionViewCell.xib in Resources */,
+				3FC9684028DF3F860016D5BB /* FSMenu.plist in Resources */,
+				3FFBE60F2924B4F400AEAD7E /* DataCaloriesIn.json in Resources */,
+				AA2E6E0828FC07B0005CB087 /* Cabinet.storyboard in Resources */,
+				A5B9B5AB2878464400D8F662 /* Assets.xcassets in Resources */,
+				A5B9AAE128B520F700C77C01 /* SideMenuCell.xib in Resources */,
+				A5B9B5A92878464200D8F662 /* Main.storyboard in Resources */,
+				AA2E6E2928FC088B005CB087 /* CabinetsResponse.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B9B5B22878464400D8F662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B9B5BC2878464400D8F662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D4AE83B9C09CE9ED28AEB79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JASafeDemoVTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		199D3C04F12B51731990C0CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JASafeDemoV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55EAE3CBCF50BCE4DC825CD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JASafeDemoV-JASafeDemoVUITests/Pods-JASafeDemoV-JASafeDemoVUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JASafeDemoV-JASafeDemoVUITests/Pods-JASafeDemoV-JASafeDemoVUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JASafeDemoV-JASafeDemoVUITests/Pods-JASafeDemoV-JASafeDemoVUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD4BDB2956FAE15A3EFBD91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JASafeDemoV-JASafeDemoVUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE085191789720EE7CCCB7EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JASafeDemoV/Pods-JASafeDemoV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JASafeDemoV/Pods-JASafeDemoV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JASafeDemoV/Pods-JASafeDemoV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5B9B59A2878464200D8F662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC9684428DF579F0016D5BB /* Extension.swift in Sources */,
+				AA51BA6B28DB0030003D4F33 /* NavigationHelper.swift in Sources */,
+				A5522486291A24A5007FCDF1 /* AlarmDetailCell.swift in Sources */,
+				A54AB4A128D0572500594662 /* RefrigerationCollectionViewCell.swift in Sources */,
+				A5522495291CC1DB007FCDF1 /* ResolveReasonTableViewCell.swift in Sources */,
+				3F334B3B28E40BD6008F4BBD /* BaseViewController.swift in Sources */,
+				A56941D328A36E8600A5476B /* API Handler.swift in Sources */,
+				A56941C9289A766F00A5476B /* DataManager.swift in Sources */,
+				A56941CE289A7FE100A5476B /* User+API.swift in Sources */,
+				A5E448D628F93097005EB93E /* RefrigerationCabinetViewModel.swift in Sources */,
+				A58E5EAD28CEEB6F002621C5 /* FSApplicationConfigLoader.swift in Sources */,
+				A5FA10E828C1C276001ACAB3 /* LoadingView.swift in Sources */,
+				A5522484291A2438007FCDF1 /* AlarmDetailViewController.swift in Sources */,
+				A56941C3289A709D00A5476B /* ReachabilityManager.swift in Sources */,
+				A5B9AAE328B5223300C77C01 /* HomeViewController.swift in Sources */,
+				AA2E6E2F28FC278D005CB087 /* CabinetViewModel.swift in Sources */,
+				A54AB4A728D2DEA800594662 /* DashBoardModel.swift in Sources */,
+				A56941CB289A775E00A5476B /* FSConstants.swift in Sources */,
+				A5B9AADB28B5205500C77C01 /* SideMenuModel.swift in Sources */,
+				AA2E6E2728FC088B005CB087 /* CabinetsModel.swift in Sources */,
+				A5522491291BC40A007FCDF1 /* ResolveReasonAPI.swift in Sources */,
+				A5B9B5A22878464200D8F662 /* AppDelegate.swift in Sources */,
+				3FFBE6152924B5A400AEAD7E /* JAGraphViewController.swift in Sources */,
+				A56941DB28A36EF700A5476B /* APIEnvironment.swift in Sources */,
+				A5522493291C0B23007FCDF1 /* AlarmReasonViewController.swift in Sources */,
+				A5FA10EF28C70E44001ACAB3 /* UIViewController+PENN.swift in Sources */,
+				A5B9AAE728B5247C00C77C01 /* SyncViewController.swift in Sources */,
+				A56941D528A36EAF00A5476B /* RequestHandler+Extension.swift in Sources */,
+				A5B4787928D9B1D300C4A781 /* JSMessageHandler.swift in Sources */,
+				AA2E6E0628FC054A005CB087 /* SlideMenuController.swift in Sources */,
+				A5B9AAE528B5245B00C77C01 /* DashBoardViewController.swift in Sources */,
+				A552248D291BBD1A007FCDF1 /* ResolvedReasonModel.swift in Sources */,
+				A5DF611028ACB61A000B74B2 /* AuthenticationResponse.swift in Sources */,
+				A56941D928A36EE100A5476B /* APILoader.swift in Sources */,
+				A58E5EAB28CEEB3E002621C5 /* FSApplicationConfig.swift in Sources */,
+				A5728C82291E16FD0053BF9B /* CorrectiveActionViewModel.swift in Sources */,
+				A5FA10DA28C1B772001ACAB3 /* FSAPIManagerHandler.swift in Sources */,
+				3FFBE6132924B59900AEAD7E /* OptionsProvider.swift in Sources */,
+				A58E5EB528CEED03002621C5 /* FSStartViewModel.swift in Sources */,
+				A5B4787D28D9B24F00C4A781 /* FSStartViewController.swift in Sources */,
+				AA2E6E0E28FC083B005CB087 /* AlarmsViewController.swift in Sources */,
+				AA2E6E2B28FC0891005CB087 /* JASearchBar.swift in Sources */,
+				A5E448DD28FADDB0005EB93E /* AlarmModel.swift in Sources */,
+				AA2E6E3828FC2E67005CB087 /* CodableHelper.swift in Sources */,
+				A5728C80291E0C5E0053BF9B /* CorrectiveActionAPI.swift in Sources */,
+				AA2E6E0C28FC083B005CB087 /* CabinetsViewController.swift in Sources */,
+				3FC9684228DF41E20016D5BB /* MenuViewModel.swift in Sources */,
+				A5E448D928F930AF005EB93E /* RefrigerationAPI.swift in Sources */,
+				AA2E6E3228FC27F7005CB087 /* BaseTableViewCell.swift in Sources */,
+				A5B9AADF28B520AE00C77C01 /* SideMenuCell.swift in Sources */,
+				AA2E6E1228FC0882005CB087 /* CabinetCardTableViewCell.swift in Sources */,
+				A552248F291BBF29007FCDF1 /* CorrectiveActionModel.swift in Sources */,
+				A5E448E328FB22B6005EB93E /* AlarmViewModel.swift in Sources */,
+				A58E5EB128CEEBF5002621C5 /* FSApplicationStateManager.swift in Sources */,
+				A5B9B5A42878464200D8F662 /* SceneDelegate.swift in Sources */,
+				3FFBE60D2924B4F400AEAD7E /* JACustomButton.swift in Sources */,
+				A5728C87291E83510053BF9B /* CorrectiveActionTableViewCell.swift in Sources */,
+				A58E5EB328CEEC68002621C5 /* JAWebView.swift in Sources */,
+				A552248B291B890A007FCDF1 /* AlarmReasonViewModel.swift in Sources */,
+				A5E448E528FB234A005EB93E /* AlarmAPI.swift in Sources */,
+				A56941D728A36EC800A5476B /* ResponseHandler+Extension.swift in Sources */,
+				AA2E6E1128FC0882005CB087 /* AlarmsTableViewCell.swift in Sources */,
+				A5B4787B28D9B1FF00C4A781 /* FSHelper.swift in Sources */,
+				A5B9AAED28B524CC00C77C01 /* NotificationViewController.swift in Sources */,
+				A54AB4A528D070C800594662 /* RefrigerationViewController.swift in Sources */,
+				A5B8488C2878A1A90019CFE4 /* Application Error.swift in Sources */,
+				AA51BA6928DAFFAC003D4F33 /* ContentNavigationViewController.swift in Sources */,
+				A5B9AAD728B51F8A00C77C01 /* SideMenuViewController.swift in Sources */,
+				AA51BA6728DAFF6A003D4F33 /* HeaderViewController.swift in Sources */,
+				A56941DD28A36F0900A5476B /* APIPath.swift in Sources */,
+				AA2E6E0D28FC083B005CB087 /* SegementedVC.swift in Sources */,
+				AA51BAD328DB1102003D4F33 /* DetailsViewController.swift in Sources */,
+				A58E5EAF28CEEBE8002621C5 /* FSAppAuthHandler.swift in Sources */,
+				A5B9AAD928B51FC600C77C01 /* MainViewController.swift in Sources */,
+				3FFBE6092924070700AEAD7E /* RemarkViewController.swift in Sources */,
+				A5728C85291E83330053BF9B /* CorrectiveActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B9B5B02878464400D8F662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B9B5B92878464400D8F662 /* PENN_Food_SafetyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B9B5BA2878464400D8F662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B9B5C32878464400D8F662 /* PENN_Food_SafetyUITests.swift in Sources */,
+				A5B9B5C52878464400D8F662 /* PENN_Food_SafetyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5B9B5B62878464400D8F662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5B9B59D2878464200D8F662 /* JASafeDemoV */;
+			targetProxy = A5B9B5B52878464400D8F662 /* PBXContainerItemProxy */;
+		};
+		A5B9B5C02878464400D8F662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5B9B59D2878464200D8F662 /* JASafeDemoV */;
+			targetProxy = A5B9B5BF2878464400D8F662 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5B9B5A72878464200D8F662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5B9B5A82878464200D8F662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5B9B5AC2878464400D8F662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5B9B5AD2878464400D8F662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5B9B5C62878464400D8F662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5B9B5C72878464400D8F662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5B9B5C92878464400D8F662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A1FBC9571A98555EB69410 /* Pods-JASafeDemoV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PENN Food Safety/PENN Food Safety.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PENN Food Safety/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jci.PennFoodSafety;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5B9B5CA2878464400D8F662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1DF33D41C939D744A4A9C4A /* Pods-JASafeDemoV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PENN Food Safety/PENN Food Safety.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PENN Food Safety/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jci.PennFoodSafety;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5B9B5CC2878464400D8F662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 718B236630CD9F9F90E1649A /* Pods-JASafeDemoVTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Johnson-Controls.PENN-Food-SafetyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JASafeDemoV.app/JASafeDemoV";
+			};
+			name = Debug;
+		};
+		A5B9B5CD2878464400D8F662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA9479503A60FFC64D103A9 /* Pods-JASafeDemoVTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Johnson-Controls.PENN-Food-SafetyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JASafeDemoV.app/JASafeDemoV";
+			};
+			name = Release;
+		};
+		A5B9B5CF2878464400D8F662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55595B69595E6279B5C8A1E /* Pods-JASafeDemoV-JASafeDemoVUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Johnson-Controls.PENN-Food-SafetyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PENN Food Safety";
+			};
+			name = Debug;
+		};
+		A5B9B5D02878464400D8F662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFFA9E10F8EC9B130E413F9 /* Pods-JASafeDemoV-JASafeDemoVUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Johnson-Controls.PENN-Food-SafetyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PENN Food Safety";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5B9B5992878464200D8F662 /* Build configuration list for PBXProject "JASafeDemoV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B9B5C62878464400D8F662 /* Debug */,
+				A5B9B5C72878464400D8F662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B9B5C82878464400D8F662 /* Build configuration list for PBXNativeTarget "JASafeDemoV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B9B5C92878464400D8F662 /* Debug */,
+				A5B9B5CA2878464400D8F662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B9B5CB2878464400D8F662 /* Build configuration list for PBXNativeTarget "JASafeDemoVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B9B5CC2878464400D8F662 /* Debug */,
+				A5B9B5CD2878464400D8F662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B9B5CE2878464400D8F662 /* Build configuration list for PBXNativeTarget "JASafeDemoVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B9B5CF2878464400D8F662 /* Debug */,
+				A5B9B5D02878464400D8F662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5B9B5962878464200D8F662 /* Project object */;
+}
